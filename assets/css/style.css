@@ -1,13 +1,24 @@
 
+body {
+  background-image: URL("../images/background.jpg");
 
+}
 
 #name-cover {
-    background-color: #6d9648;
+    /* background-color: #6d9648; */
     border-radius: 0px 0px 15px 0px;
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Trade Winds', Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bolder;
     
+  }
+
+  .nav-link {
+    font-family: 'Trade Winds', Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .px-2 {
+    font-family: 'Trade Winds', Verdana, Geneva, Tahoma, sans-serif;
   }
 
 #mainblock {
@@ -19,7 +30,7 @@
 }
 
 .container {
-  background-color: #6d9648;
+  /* background-color: #6d9648; */
 }
 
 .zoom {
