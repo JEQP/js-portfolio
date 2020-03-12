@@ -60,6 +60,8 @@ body {
   border-color: blue;
   border-width: 3px; */
   margin: 5px;
+  background: rgb(255, 255, 255, 0.2);
+  padding: 15px;
   
 }
 img {
@@ -96,4 +98,8 @@ img {
   align-self: center;
   background: rgb(255, 255, 255, 0.2);
   padding: 10px;
+}
+
+.bioBlock{
+  background: rgb(255, 255, 255, 0.1);
 }
