@@ -16,43 +16,117 @@
     <div class="container  px-md-0 px-xs-0">
         <!-- bg-white changes background of navbar to white  -->
         <nav class="navbar navbar-expand-lg navbar-light">
-                <a class="navbar-brand" href="#">
-                    <!-- style="background-color: #4aaaa5;" -->
-                    <h1 id="name-cover">&nbsp;James Q. Pearce&nbsp;</h1>
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
-                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <!-- ​javascript for hamburger menu to be added later -->
-                <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a class="nav-link active" href="./index.html">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" href="./portfolio.html">Portfolio <span
-                                    class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" href="./contact.html">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-                ​
-    
-            </nav>
+            <a class="navbar-brand" href="#">
+                <!-- style="background-color: #4aaaa5;" -->
+                <h1 id="name-cover">&nbsp;James Q. Pearce&nbsp;</h1>
+            </a>
+<!-- Collapse Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#navbarText"
+            aria-controls="#navbarText" aria-expanded="false" aria-label="Toggle navigation"><span class="dark-blue-text"><i
+                class="fas fa-bars fa-1x"></i></span></button> -->
+        
+            <!-- ​javascript for hamburger menu to be added later -->
+            <div class="navbar-collapse collapse w-100 order-3 dual-collapse2" id="navbarText">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./index.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./portfolio.html">Portfolio <span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            ​
+
+        </nav>
     </div>
     <!-- container of content -->
     <div class="container" id="mainblock">
-        
+
         <!-- content heading -->
         <div class="row" style="justify-content: center;">
-            <h1 class="px-2" >&nbsp;Portfolio&nbsp;</h1>
+            <h1 class="px-2">&nbsp;Portfolio&nbsp;</h1>
         </div>
+
+        <!-- Three columns of content -->
+        <!-- left column -->
+        <div class="row">
+            <div class="col-md-4">
+                <!-- <a href="https://jeqp.github.io/mixer-upper/index.html" target="_blank"> -->
+                <div class="container thumb">
+                    <img src="./assets/images/mixerupper350x200.jpg" class="rounded float-left zoom img-fluid toClick"
+                        alt="Mixer Upper" id="mixerupper">
+                    <!-- </a> -->
+                </div>
+                <div class="container thumb">
+                        <img src="./assets/images/weathereye350x250.jpg" class="rounded float-left zoom img-fluid toClick"
+                            alt="Weather Eye" id="weathereye">
+                </div>
+                <div class="container thumb">
+                    <img src="./assets/images/worksched350x200.jpg" class="rounded float-left zoom img-fluid toClick"
+                            alt="Work Scheduler" id="workSched">
+                </div>
+            </div>
+
+            <!-- centre column, with content hidden and revealed -->
+            <div class="col-md-4">
+                <!-- <div class="container" id="showcased"> -->
+                <div id="imageChosen"><img src="./assets/images/portfoliosquare.jpg"
+                        class="rounded float-left zoom img-fluid" alt="At first but then"></a></div>
+                <div id="title">
+                    <h2>Portfolio</h2>
+                </div>
+                <div id="dLink"><a href="https://jeqp.github.io/portfolio/portfolio.html" target="_blank">Deployed
+                        Link</a>
+                </div>
+                <div id="ghRepo"><a href="https://github.com/JEQP/portfolio" target="_blank">GitHub Repo</a></div>
+                <div id="description">
+                    <p>A portfolio showcasing some of the content I have created. Styled with Bootstrap and using "Trade
+                        Wind"
+                        font from Google Fonts. An external Javascript file is used to change the showcased content
+                        based on the
+                        users' clicks.</p>
+                </div>
+                <!-- <a href="https://jeqp.github.io/portfolio/portfolio.html" target="_blank"><img
+                        src="./assets/images/atfirstbutthendone.jpg" class="rounded float-left zoom img-fluid"
+                        alt="At first but then"></a>
+                <div class="text-center">
+                    <h2>Placeholder</h2> -->
+                <!-- </div> -->
+                <!-- </div> -->
+            </div>
+
+            <!-- third column -->
+            <div class="col-md-4">
+                <div class="container thumb">
+                    <img src="./assets/images/opm350x200.jpg" class="rounded float-left zoom img-fluid toClick"
+                            alt="One Page Man" id="opm">
+                </div>
+                <div class="container thumb">
+                    <img src="./assets/images/employeetracker350x200.jpg" class="rounded float-left zoom img-fluid toClick"
+                            alt="Employee Tracker CMS" id="empTrack">
+                </div>
+                <div class="container thumb">
+                    <img src="./assets/images/burger350x200.jpg" class="rounded float-left zoom img-fluid toClick"
+                            alt="Eat Da Burger" id="eatBurger">
+                </div>
+            </div>
+        </div>
+
+
+
+
         <!-- 1 row of content, with containers changing based on screen size. The containers link the text to the relevant image -->
 
-        <div class="row">
+        <!-- <div class="row">
             <div class="col-md">
                 <div class="container"> 
                     <div class="row">
@@ -111,7 +185,7 @@
 
 
 
-        </div>
+        </div> -->
 
 
     </div>
@@ -123,7 +197,7 @@
     </footer>
 
 
-
+    <script type='text/javascript' src='assets/js/script.js'></script>></script>
 </body>
 
 </html>
