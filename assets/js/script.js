@@ -82,30 +82,6 @@ docReady(function () {
     });
 });
 
-// hamburger menu
-// var topMenuButton = document.querySelector(".navbar-toggler");
-// var topMenuClassName = document.querySelector(".navbar-toggler-icon");
-// var activeModificator = "--nav-item";
-
-// topMenuButton.addEventListener('click', topMenuButtonChange);
-
-
-//     function topMenuButtonChange() {
-//         toggleClass(topMenuClassName, topMenuButton);
-//         topMenuShow();
-//     }
-
-//     function topMenuShow() {
-//         topMenuWindow.style.display = (topMenuWindow.style.display === "block") ? "none": "block";
-//     }
-//     function toggleClass(className, elem, active) {
-//         var activeName = (active === undefined) ? activeModificator : active;
-//         var element = (elem === undefined) ? className : elem;
-//         element.classList.toggle(className);
-//         element.classList.toggle(className + activeName);
-//     }
-
-
 
 // This function ensures the page is loaded before Javascript is run.
 function docReady(fn) {
