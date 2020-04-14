@@ -5,6 +5,6 @@ A responsive portfolio featuring six projects with which I have been involved. M
 Styled with Bootstrap and using "Trade Wind" font from Google Fonts. An external Javascript file is used to change the showcased content based on the users' clicks.
 
 
-Deployed link: https://jeqp.github.io/portfolio/portfolio.html
+Deployed link: https://jeqp.github.io/js-portfolio/
 
 ![Portfolio](https://github.com/JEQP/portfolio/blob/master/screencap.jpg)
